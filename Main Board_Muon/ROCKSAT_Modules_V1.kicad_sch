@@ -707,6 +707,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2301,10 +2408,28 @@
 		(uuid "f842c900-beae-44c9-8a55-42b547d4b51a")
 	)
 	(junction
+		(at 67.31 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "067778e6-ff09-41c2-a0db-7206107f3793")
+	)
+	(junction
+		(at 200.66 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f7add86-42fe-40db-b06c-1f6f98487086")
+	)
+	(junction
 		(at 240.03 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "228a7861-ae09-4bf0-aad2-ff0789c24ad1")
+	)
+	(junction
+		(at 80.01 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22d90450-410f-4661-9fe5-882d782742fd")
 	)
 	(junction
 		(at 176.53 81.28)
@@ -2331,6 +2456,24 @@
 		(uuid "40f7c8ad-5ebb-45b5-b48d-e3f5c56d6721")
 	)
 	(junction
+		(at 77.47 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "537dee0e-3adb-433d-a84f-ed9343d1675a")
+	)
+	(junction
+		(at 130.81 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ad9ae4b-e3ca-4cf0-93a1-fe2f34e29922")
+	)
+	(junction
+		(at 138.43 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c9b67ef-63fa-4a40-9671-8b952377fa89")
+	)
+	(junction
 		(at 199.39 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2349,6 +2492,12 @@
 		(uuid "87b6cdf6-511b-4ed3-925e-b0493447a7f1")
 	)
 	(junction
+		(at 60.96 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e18a991-59fe-4641-88b0-8989f761639e")
+	)
+	(junction
 		(at 209.55 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2361,6 +2510,12 @@
 		(uuid "c0660db3-cf06-4b0f-90d3-d01c3671d756")
 	)
 	(junction
+		(at 205.74 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c40ce1e3-fb67-4c08-b4e8-bfe8f792c7e1")
+	)
+	(junction
 		(at 217.17 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2371,6 +2526,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2bf8dd9-9f89-4c7b-8aa9-c3cd2f833311")
+	)
+	(junction
+		(at 168.91 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d79628c9-cd9e-4014-b97c-4ea271718319")
 	)
 	(junction
 		(at 199.39 33.02)
@@ -2389,6 +2550,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef245415-b108-4277-8046-5aed5397b41b")
+	)
+	(junction
+		(at 58.42 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5cb62ba-9853-4862-b174-958f8b567885")
 	)
 	(no_connect
 		(at 90.17 114.3)
@@ -2544,6 +2711,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 119.38) (xy 255.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c68a2d9-e712-450b-b368-b4c5b908ab49")
+	)
+	(wire
+		(pts
 			(xy 76.2 161.29) (xy 69.85 161.29)
 		)
 		(stroke
@@ -2624,7 +2801,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 71.12) (xy 168.91 81.28)
+			(xy 168.91 71.12) (xy 168.91 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2764,7 +2941,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 119.38) (xy 255.27 119.38)
+			(xy 130.81 119.38) (xy 200.66 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2781,6 +2958,16 @@
 			(type default)
 		)
 		(uuid "5f1c5449-48b6-420b-811d-bd300b5181a7")
+	)
+	(wire
+		(pts
+			(xy 205.74 68.58) (xy 209.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a21f85-d8eb-4985-82d5-dcf1d102467f")
 	)
 	(wire
 		(pts
@@ -2891,6 +3078,16 @@
 			(type default)
 		)
 		(uuid "84febdb2-2ed0-4ec2-9944-aaadcb55d364")
+	)
+	(wire
+		(pts
+			(xy 77.47 151.13) (xy 77.47 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86508c4a-446b-43a1-b1ea-babddea00a54")
 	)
 	(wire
 		(pts
@@ -3024,6 +3221,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 120.65) (xy 60.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad45019b-3dda-4d5f-8ba6-a987280213cf")
+	)
+	(wire
+		(pts
 			(xy 252.73 78.74) (xy 250.19 78.74)
 		)
 		(stroke
@@ -3084,7 +3291,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 68.58) (xy 209.55 68.58)
+			(xy 199.39 68.58) (xy 205.74 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3101,6 +3308,16 @@
 			(type default)
 		)
 		(uuid "c339889e-4212-4ed9-b68c-b555f70ec937")
+	)
+	(wire
+		(pts
+			(xy 168.91 78.74) (xy 168.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3fe3643-21e2-4dc7-92ae-9104d7be6523")
 	)
 	(wire
 		(pts
@@ -3224,6 +3441,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 121.92) (xy 58.42 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28e7423-307d-4a08-8b77-90e4be67e1ea")
+	)
+	(wire
+		(pts
 			(xy 130.81 109.22) (xy 133.35 109.22)
 		)
 		(stroke
@@ -3231,6 +3458,16 @@
 			(type default)
 		)
 		(uuid "f49fa189-9041-4d29-8309-1924ef41e0d5")
+	)
+	(wire
+		(pts
+			(xy 67.31 139.7) (xy 90.17 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7774785-7d4e-485e-9bbc-128a15e50ce2")
 	)
 	(wire
 		(pts
@@ -3244,7 +3481,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 139.7) (xy 90.17 139.7)
+			(xy 63.5 139.7) (xy 67.31 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3505,6 +3742,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 200.66 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fafcf51-4736-4b41-98ef-8cfcf18781ff")
+		(property "Reference" "TP10"
+			(at 199.136 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPA_MUON"
+			(at 199.136 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 205.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 200.66 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9c410b1-384d-4b99-9296-6b7fe5816c0f")
+		)
+		(instances
+			(project "ROCKSAT_Modules_V1"
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 130.81 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11e59b43-c330-4486-9a0d-6ec704067f20")
+		(property "Reference" "TP8"
+			(at 133.35 152.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPGND"
+			(at 133.35 155.4479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 135.89 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 130.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c632cf5-2e98-4862-a035-342764ac67e6")
+		)
+		(instances
+			(project "ROCKSAT_Modules_V1"
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 35.56 152.4 0)
 		(unit 1)
@@ -3637,6 +4007,206 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 77.47 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22f3ce00-25a1-4eec-9596-52a081053a80")
+		(property "Reference" "TP4"
+			(at 80.01 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPTXin"
+			(at 80.01 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 82.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 77.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3126687-49df-44f7-860b-f82058ec4241")
+		)
+		(instances
+			(project "ROCKSAT_Modules_V1"
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 133.35 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28e0214c-de5a-4b78-a412-ccdf68b0211b")
+		(property "Reference" "TP1"
+			(at 138.43 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5V"
+			(at 138.43 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "839d31c0-5820-4e3b-896a-c2fe47434320")
+		)
+		(instances
+			(project ""
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "28e0e232-4372-4f09-92d5-f9ab60411773")
+		(property "Reference" "TP11"
+			(at 160.274 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPFB_Filter"
+			(at 162.814 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a855b1ce-e75d-45ad-bc5c-5235779e1b2b")
+		)
+		(instances
+			(project "ROCKSAT_Modules_V1"
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 71.12 152.4 0)
 		(unit 1)
@@ -3697,6 +4267,140 @@
 			(project "ROCKSAT_Modules_V1"
 				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 67.31 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a05e12f-6255-45ec-b9d2-27c7f7ce3a72")
+		(property "Reference" "TP5"
+			(at 69.85 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPMOSI"
+			(at 69.85 137.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 72.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 67.31 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c47106d9-3af3-4583-b226-1cc61d6c8afa")
+		)
+		(instances
+			(project "ROCKSAT_Modules_V1"
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cc600fb-94d3-4eea-a8d2-e01d3c4424f1")
+		(property "Reference" "TP7"
+			(at 62.992 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPSCLK"
+			(at 62.992 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3805ef51-f8f5-40dc-822e-da2a9c0c47a2")
+		)
+		(instances
+			(project "ROCKSAT_Modules_V1"
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -4477,10 +5181,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68eb5308-b4a9-46b3-9115-d968542e1166")
 		(property "Reference" "U2"
-			(at 217.17 60.96 0)
+			(at 220.472 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,7 +5191,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 217.17 63.5 0)
+			(at 220.472 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,6 +5359,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a45c3d8-1b97-47f3-b698-cf5fb035743a")
+		(property "Reference" "TP12"
+			(at 204.216 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPU2A_Out"
+			(at 202.946 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95c0139d-143f-4109-82af-8b10f99c688b")
+		)
+		(instances
+			(project "ROCKSAT_Modules_V1"
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Opamp_Dual")
 		(at 201.93 43.18 0)
 		(unit 3)
@@ -4775,6 +5544,73 @@
 				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "730599b6-73db-43e6-92a1-f88f8fde5cb9")
+		(property "Reference" "TP3"
+			(at 85.09 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPRXin"
+			(at 85.09 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 80.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dca3f7d-dc17-4236-88a2-ca552f765d22")
+		)
+		(instances
+			(project "ROCKSAT_Modules_V1"
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP3")
+					(unit 1)
 				)
 			)
 		)
@@ -5983,6 +6819,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 138.43 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c836d0e6-23ad-4aaa-8d9b-351d28aa9dca")
+		(property "Reference" "TP2"
+			(at 143.51 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP3.3V"
+			(at 143.51 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 138.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 138.43 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e17d7c95-156c-4fff-8832-bb3deeca2447")
+		)
+		(instances
+			(project "ROCKSAT_Modules_V1"
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 163.83 0)
 		(unit 1)
@@ -6243,6 +7146,73 @@
 			(project "ROCKSAT_Modules_V1"
 				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 54.61 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2fde5a9-30d0-4684-b2e0-dea982f2cea8")
+		(property "Reference" "TP6"
+			(at 52.07 117.3479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPMISO"
+			(at 52.07 119.8879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5443a48e-a6eb-4c01-af11-e722ae98dce4")
+		)
+		(instances
+			(project "ROCKSAT_Modules_V1"
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6511,6 +7481,72 @@
 			(project "ROCKSAT_Modules_V1"
 				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 156.21 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcbf29ca-32c9-4500-9830-a980b2061dcd")
+		(property "Reference" "TP9"
+			(at 154.686 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPA_(+)"
+			(at 154.686 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fad2a70-76ef-42ac-9f78-d1bd81103d3a")
+		)
+		(instances
+			(project "ROCKSAT_Modules_V1"
+				(path "/cdf550ac-aa1e-4908-9a8c-884977d22869"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
