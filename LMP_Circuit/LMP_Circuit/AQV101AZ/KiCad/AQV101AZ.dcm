@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AQV101AZ
+D Solid State Relays - PCB Mount 40v 700mA DIP Form A Norm-Open
+K
+F https://industry.panasonic.com/ac/cdn/e/control/relay/photomos/catalog/semi_eng_hf1a_aqv10_20.pdf
+$ENDCMP
+#
+#End Doc Library

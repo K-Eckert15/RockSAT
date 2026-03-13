@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AQV101AZ'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "AQV101AZ" (!) = "", "SOP254P960X390-6N", "Small Outline Packages", "769-AQV101AZ", "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/AQV101AZ?qs=tR16lFwwUU9E2ZzN3WgHBg%3D%3D", "Solid State Relays - PCB Mount 40v 700mA DIP Form A Norm-Open", "https://industry.panasonic.com/ac/cdn/e/control/relay/photomos/catalog/semi_eng_hf1a_aqv10_20.pdf", "3.9 mm"
+END_PART
+
+END.

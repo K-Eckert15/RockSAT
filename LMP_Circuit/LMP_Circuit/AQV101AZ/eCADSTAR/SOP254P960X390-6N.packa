@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AQV101AZ"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-12-09:16:16)
+    (mountForm default
+        (footprintRef "SOP254P960X390-6N")
+        (spec "System")
+    )
+)

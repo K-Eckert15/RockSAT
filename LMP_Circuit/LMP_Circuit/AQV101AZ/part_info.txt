@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=AQV101AZ
+PartCategory=Relay or Contactor
+PackageCategory=Small Outline Packages
+PinCount=6
+Version=4.1
+Released=2019-11-12 09:16:16
+Downloaded=2026-03-13 14:35:19
+3D=Y

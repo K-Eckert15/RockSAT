@@ -1,0 +1,138 @@
+
+(EDIF
+  (rename &AQV101AZ "AQV101AZ")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2026 03 13 14 35 19)
+      (dataOrigin "1179892/1781838/2.50/6/4/Relay or Contactor")
+      (program "SamacSys ECAD Model AQV101AZ"
+        (version "4.1"))))
+  (library
+  (rename &AQV101AZ "AQV101AZ")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &AQV101AZ "AQV101AZ")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "K")
+          (property (rename PACKAGENAME "PackageName") (string "AQV101AZ"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SOP254P960X390-6N"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "769-AQV101AZ"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/AQV101AZ?qs=tR16lFwwUU9E2ZzN3WgHBg%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Panasonic"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "AQV101AZ"))
+          (property (rename &Description "Description") (string "Solid State Relays - PCB Mount 40v 700mA DIP Form A Norm-Open"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://industry.panasonic.com/ac/cdn/e/control/relay/photomos/catalog/semi_eng_hf1a_aqv10_20.pdf"))
+          (property (rename &Height "Height") (string "3.9 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "AQV101AZ"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &A "A")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &K "K")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &NC_1 "NC_1")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &OUT_1 "OUT_1")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &NC_2 "NC_2")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &OUT_2 "OUT_2")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &A (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &K (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &NC_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &OUT_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -100) (pt 1000 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -100))))
+            )
+            (portImplementation
+              (name &NC_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -200) (pt 1000 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -200))))
+            )
+            (portImplementation
+              (name &OUT_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 800 -300) (pt 1000 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 1000 -300))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 800 0)
+                  (pt 800 -400)
+                  (pt 0 -400)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 850 30))))
+          )
+        )
+      )
+    )
+  )
+)
