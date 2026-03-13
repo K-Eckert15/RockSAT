@@ -10045,7 +10045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP254P960X390-6N"
+		(property "Footprint" "AQV101AZ:SOP254P960X390-6N"
 			(at 107.95 294.31 0)
 			(effects
 				(font
