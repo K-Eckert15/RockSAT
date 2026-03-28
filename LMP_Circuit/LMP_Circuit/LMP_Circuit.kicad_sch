@@ -7119,7 +7119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1984620"
+		(property "Description" ""
 			(at 181.61 83.82 0)
 			(effects
 				(font
@@ -7129,6 +7129,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1984620"
 			(at 181.61 83.82 0)
 			(effects
 				(font
@@ -7323,7 +7332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM188R6YA106MA73D"
+		(property "Description" ""
 			(at 77.47 203.2 0)
 			(effects
 				(font
@@ -7333,6 +7342,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 77.47 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R6YA106MA73D"
 			(at 77.47 203.2 0)
 			(effects
 				(font
@@ -7598,7 +7616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RMCF0603FT1K00"
+		(property "Description" ""
 			(at 142.24 208.28 0)
 			(effects
 				(font
@@ -7608,6 +7626,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 142.24 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMCF0603FT1K00"
 			(at 142.24 208.28 0)
 			(effects
 				(font
@@ -7676,7 +7703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -7686,6 +7713,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 218.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -7964,7 +8000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM188R6YA106MA73D"
+		(property "Description" ""
 			(at 231.14 87.63 0)
 			(effects
 				(font
@@ -7974,6 +8010,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 231.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R6YA106MA73D"
 			(at 231.14 87.63 0)
 			(effects
 				(font
@@ -8240,7 +8285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ED555/2DS"
+		(property "Description" ""
 			(at 62.23 152.4 0)
 			(effects
 				(font
@@ -8250,6 +8295,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 62.23 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ED555/2DS"
 			(at 62.23 152.4 90)
 			(effects
 				(font
@@ -8449,7 +8503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RMCF0603FT1K00"
+		(property "Description" ""
 			(at 92.71 196.85 0)
 			(effects
 				(font
@@ -8459,6 +8513,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 92.71 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMCF0603FT1K00"
 			(at 92.71 196.85 90)
 			(effects
 				(font
@@ -8757,7 +8820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ERA-3AEB3831V"
+		(property "Description" ""
 			(at 198.12 140.97 0)
 			(effects
 				(font
@@ -8767,6 +8830,15 @@
 			)
 		)
 		(property "Notes" "3.83k"
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB3831V"
 			(at 198.12 140.97 0)
 			(effects
 				(font
@@ -8834,7 +8906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RN73R1JTTD2342B25"
+		(property "Description" ""
 			(at 194.31 175.26 0)
 			(effects
 				(font
@@ -8844,6 +8916,15 @@
 			)
 		)
 		(property "Notes" "23.4 kOhms"
+			(at 194.31 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RN73R1JTTD2342B25"
 			(at 194.31 175.26 90)
 			(effects
 				(font
@@ -9414,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "UMK107AB7105KA-T"
+		(property "Description" ""
 			(at 212.09 179.07 0)
 			(effects
 				(font
@@ -9424,6 +9505,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 212.09 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UMK107AB7105KA-T"
 			(at 212.09 179.07 0)
 			(effects
 				(font
@@ -9637,7 +9727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1984633"
+		(property "Description" ""
 			(at 387.35 129.54 0)
 			(effects
 				(font
@@ -9647,6 +9737,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 387.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1984633"
 			(at 387.35 129.54 0)
 			(effects
 				(font
@@ -9723,7 +9822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CC0603KRX7R9BB104"
+		(property "Description" ""
 			(at 242.57 87.63 0)
 			(effects
 				(font
@@ -9733,6 +9832,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
 			(at 242.57 87.63 0)
 			(effects
 				(font
@@ -10065,7 +10173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "GRM188R6YA106MA73D"
+		(property "Description" ""
 			(at 205.74 87.63 0)
 			(effects
 				(font
@@ -10075,6 +10183,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 205.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188R6YA106MA73D"
 			(at 205.74 87.63 0)
 			(effects
 				(font
@@ -10142,7 +10259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CRCW06031M00FKEA"
+		(property "Description" ""
 			(at 71.12 196.85 0)
 			(effects
 				(font
@@ -10152,6 +10269,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 71.12 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06031M00FKEA"
 			(at 71.12 196.85 90)
 			(effects
 				(font
@@ -10220,7 +10346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CC0603KRX7R9BB104"
+		(property "Description" ""
 			(at 64.77 203.2 0)
 			(effects
 				(font
@@ -10230,6 +10356,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 64.77 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
 			(at 64.77 203.2 0)
 			(effects
 				(font
@@ -10299,7 +10434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "AQV101AZ"
+		(property "Description" ""
 			(at 134.62 199.39 0)
 			(effects
 				(font
@@ -10583,7 +10718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RN73R1JTTD2342B25"
+		(property "Description" ""
 			(at 193.04 137.16 0)
 			(effects
 				(font
@@ -10593,6 +10728,15 @@
 			)
 		)
 		(property "Notes" "23.4 kOhms"
+			(at 193.04 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RN73R1JTTD2342B25"
 			(at 193.04 137.16 90)
 			(effects
 				(font
@@ -10803,7 +10947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RMCF0603FT1K00"
+		(property "Description" ""
 			(at 138.43 201.93 0)
 			(effects
 				(font
@@ -10813,6 +10957,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 138.43 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RMCF0603FT1K00"
 			(at 138.43 201.93 90)
 			(effects
 				(font
@@ -11305,7 +11458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CGA3E3X7R1H334K080AB"
+		(property "Description" ""
 			(at 132.08 140.97 0)
 			(effects
 				(font
@@ -11315,6 +11468,15 @@
 			)
 		)
 		(property "Notes" "330nf"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA3E3X7R1H334K080AB"
 			(at 132.08 140.97 0)
 			(effects
 				(font
@@ -11481,7 +11643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ERA-3AEB3831V"
+		(property "Description" ""
 			(at 199.39 179.07 0)
 			(effects
 				(font
@@ -11491,6 +11653,15 @@
 			)
 		)
 		(property "Notes" "3.83k"
+			(at 199.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERA-3AEB3831V"
 			(at 199.39 179.07 0)
 			(effects
 				(font

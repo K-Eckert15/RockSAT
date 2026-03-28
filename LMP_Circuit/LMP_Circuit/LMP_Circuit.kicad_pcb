@@ -215,6 +215,19 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "929bd718-fcb4-4be8-bac2-c38537a04952")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/225bdaf0-f9ed-4575-a1ac-d0ed4506d7a2")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
@@ -739,6 +752,19 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06ff203a-1778-4f4a-a8a5-538d44b42264")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/2b612726-cc4d-4e13-a6d1-5a7cb7584d1d")
 		(sheetname "/")
@@ -1058,11 +1084,24 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b6719a9-74b1-450a-aa93-5f51ae62ef97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pololu*Breakout*15.2x20.3mm*")
 		(path "/04c0ac8d-8393-40dd-ae4b-1a0a2a47a281")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 14.1 -1.4)
 			(end 1.269999 -1.399999)
@@ -1571,6 +1610,19 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "898faf1b-9a7d-4c24-af84-6fc7c5954cd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bf64a1d6-abee-49e9-8ae1-9348e6ce742d")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
@@ -1793,14 +1845,14 @@
 			)
 		)
 	)
-	(footprint "Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal"
+	(footprint "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
 		(layer "F.Cu")
 		(uuid "de469e1e-db31-459a-8995-e5c375231995")
 		(at 86.868 79.248)
-		(descr "BNC RF Interface, PCB mount 4 pin, Right Angle, Bayonet, 50Ohm, 4GHz, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1478035%7FB1%7Fpdf%7FEnglish%7FENG_CD_1478035_B1.pdf%7F1-1478035-0")
-		(tags "BNC RF interface bayonet 50ohm")
+		(descr "Amphenol RF 901-143 https://www.amphenolrf.com/library/download/link/link_id/593645/parent/901-143/")
+		(tags "SMA THT Female Jack Horizontal")
 		(property "Reference" "J7"
-			(at -6.913 0.309 270)
+			(at -5.2 0 90)
 			(layer "F.SilkS")
 			(uuid "5c119442-bb33-4ed1-824f-a3cc620dcc9c")
 			(effects
@@ -1811,7 +1863,7 @@
 			)
 		)
 		(property "Value" "Electrode+"
-			(at -8.412998 0.309001 270)
+			(at 0 5 0)
 			(layer "F.Fab")
 			(uuid "1ecee589-3698-4c14-ba69-2186d9032c58")
 			(effects
@@ -1847,191 +1899,313 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70aad968-6e3e-44b1-b8c6-b978168c2d41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/8ad148f5-a41a-441e-b89e-2622d2bc195b")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -5.73 -2.825)
-			(end -5.73 2.825)
+			(start -4.1 -4.1)
+			(end -4.1 4.1)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6d4830aa-5185-4709-ad60-d2ba047aeed4")
+			(uuid "f5ee65f0-7ae9-4ab8-967e-1547713ca13f")
 		)
 		(fp_line
-			(start -2.825 5.73)
-			(end 2.825 5.73)
+			(start -4.1 -4.1)
+			(end 4.1 -4.1)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7d950587-1558-4f79-88b1-2cbde3a59dd4")
+			(uuid "b73ca211-9db5-4dbd-981d-b11506bb0d0a")
 		)
 		(fp_line
-			(start 0 -5.3)
-			(end -0.500001 -4.6)
+			(start -4.1 0.5)
+			(end -3.6 0)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c2ee58d4-105f-4488-b1c0-02bcac7ff14b")
+			(uuid "68ff6477-ba99-4212-9c44-bfd6506d4d99")
 		)
 		(fp_line
-			(start 0 -5.3)
-			(end 0.500001 -4.6)
+			(start -4.1 4.1)
+			(end 4.1 4.1)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a469107c-be8e-4ddf-8f5b-c1d7d0fa4120")
+			(uuid "c3ce8a0c-14f8-4fc8-a8db-9fe9433e77e1")
 		)
 		(fp_line
-			(start 2.825 -5.500001)
-			(end -2.825 -5.500001)
+			(start -3.6 0)
+			(end -4.1 -0.5)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "48fe9016-85d7-4a8c-96c9-50743722ce65")
+			(uuid "e8d9e318-6908-42ef-a551-f649e86e1452")
 		)
 		(fp_line
-			(start 5.73 2.825)
-			(end 5.73 -2.825)
+			(start 4.1 -4.1)
+			(end 4.1 4.1)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7d810a3a-fbb9-496a-b6f5-d6d7bba384c4")
+			(uuid "7865f3db-df07-4e17-a2cb-1d1916015c7a")
 		)
 		(fp_line
-			(start -7.53 -17.4)
-			(end 7.53 -17.4)
+			(start 4.3 -4.5)
+			(end -4.3 -4.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d47ee8c5-cb27-4c2f-b1a5-5a0bed8b1a12")
+		)
+		(fp_line
+			(start -4.3 -12)
+			(end -4.3 4.3)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8508d3fd-558c-4a03-8366-a9e97c79ae11")
+			(uuid "15c8af51-a82c-4a75-92ea-836cc812d603")
 		)
 		(fp_line
-			(start -7.53 7.53)
-			(end -7.53 -17.4)
+			(start -4.3 -12)
+			(end 4.3 -12)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e0047a2a-a44a-4a3c-9a91-e477aa9dfa10")
+			(uuid "0e79fdc5-56d8-41fb-b005-5bc47cd95117")
 		)
 		(fp_line
-			(start 7.53 -17.4)
-			(end 7.53 7.53)
+			(start 4.3 4.3)
+			(end -4.3 4.3)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c2e46e2d-2fb6-4bd4-81a9-f4be7278b7f9")
+			(uuid "62b6cfa4-6c74-4e55-beb8-996408a9f089")
 		)
 		(fp_line
-			(start 7.53 7.53)
-			(end -7.53 7.53)
+			(start 4.3 4.3)
+			(end 4.3 -12)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4a647172-388c-4012-8664-e144782f8835")
+			(uuid "41e89610-90b1-49bc-8aaf-031a098a785a")
 		)
 		(fp_line
-			(start -5.5 -5.5)
-			(end 5.5 -5.5)
+			(start -3.5 -3.5)
+			(end -3.5 3.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "44625b7f-554d-4fd1-bf9c-313274dfdb7c")
+			(uuid "31e974b9-13e4-48c8-8243-3e4ce5fc6206")
 		)
 		(fp_line
-			(start -5.5 5.5)
-			(end -5.5 -5.5)
+			(start -3.5 -3.5)
+			(end 3.5 -3.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ae4ca8e3-7013-44d4-8f39-f13e0025ee62")
+			(uuid "fe7f13a7-e78a-4056-8dba-af8982eb0e82")
 		)
 		(fp_line
-			(start -4.799999 -5.5)
-			(end -4.8 -16.9)
+			(start -3.5 -1)
+			(end -2.5 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "52c8ec66-2f49-40a2-996b-03d304dce0cd")
+			(uuid "dccc1b1e-3660-4fb3-97b0-09d0cb032ad2")
 		)
 		(fp_line
-			(start 4.799999 -5.5)
-			(end 4.8 -16.9)
+			(start -3.5 3.5)
+			(end 3.5 3.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "12623d31-2f92-4972-906c-c4016f2b1d06")
+			(uuid "9657610c-4251-474e-be2f-8338d62b4320")
 		)
 		(fp_line
-			(start 4.8 -16.9)
-			(end -4.8 -16.9)
+			(start -3 -9.5)
+			(end 3 -10)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a38bc90c-3c27-4c1e-9c6d-a982d966681c")
+			(uuid "10b4f033-9711-4981-855b-70872cf5e70f")
 		)
 		(fp_line
-			(start 5.5 -5.5)
-			(end 5.5 5.5)
+			(start -3 -9)
+			(end 3 -9.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "80cec3bd-9451-4723-8d44-5d2abacf9dd3")
+			(uuid "74b873c6-4f24-44bb-a9c0-34c0791fa9c9")
 		)
 		(fp_line
-			(start 5.5 5.5)
-			(end -5.5 5.5)
+			(start -3 -8.5)
+			(end 3 -9)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a3f7891f-2093-46a8-9cb9-a7e64b79ac65")
+			(uuid "aeac0896-ddb0-4633-959e-a44064eeb5dc")
 		)
-		(fp_circle
-			(center 0 -12.699999)
-			(end 1 -12.700002)
+		(fp_line
+			(start -3 -8)
+			(end 3 -8.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.Fab")
-			(uuid "e8ff1498-c047-4d94-9a31-5f961664151e")
+			(uuid "df3b9858-b4c9-4db1-8146-e7b40641de57")
+		)
+		(fp_line
+			(start -3 -7.5)
+			(end 3 -8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3b6edf04-2b50-4a1e-aebc-33d7d22263a9")
+		)
+		(fp_line
+			(start -3 -7)
+			(end 3 -7.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a16c695d-17e6-44a3-a2df-20acde17e981")
+		)
+		(fp_line
+			(start -3 -5.5)
+			(end -3 -3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "69135cce-4dce-4beb-94b7-67b3bdabc007")
+		)
+		(fp_line
+			(start -2.5 -11.5)
+			(end -2.5 -5.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "77d7014c-3b53-482e-b0b9-9fbf5c6d1ed8")
+		)
+		(fp_line
+			(start -2.5 -11.5)
+			(end 2.5 -11.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6f5a44f0-5c86-42a0-9c6f-c2d7dbebd33d")
+		)
+		(fp_line
+			(start -2.5 0)
+			(end -3.5 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5977e213-6d44-4a77-b7fa-9f3e3a4135bc")
+		)
+		(fp_line
+			(start 2.5 -11.5)
+			(end 2.5 -5.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "678e4d5b-75a7-460e-a6d8-93be3328ac59")
+		)
+		(fp_line
+			(start 3 -5.5)
+			(end -3 -5.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "91b6cf5c-b675-49b1-b73e-1c53733726c9")
+		)
+		(fp_line
+			(start 3 -5.5)
+			(end 3 -3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0378f583-a489-44d6-aeaa-4225ffd469e1")
+		)
+		(fp_line
+			(start 3.5 -3.5)
+			(end 3.5 3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "63036964-31ec-4d29-907a-6b9507fdbc40")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -2044,63 +2218,74 @@
 				)
 			)
 		)
-		(pad "1" thru_hole rect
+		(pad "1" thru_hole roundrect
 			(at 0 0)
-			(size 3.5 3.5)
-			(drill 1.1)
+			(size 2.3 2.3)
+			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
+			(roundrect_rratio 0.087)
 			(net 33 "/Bias_Sweep")
 			(pinfunction "In")
 			(pintype "passive")
 			(uuid "caf0a3a9-9c4a-41fe-afb4-4f958ffc33ce")
 		)
 		(pad "2" thru_hole circle
-			(at -5.025 -5.025)
-			(size 4 4)
-			(drill 1.5)
+			(at -2.54 -2.54)
+			(size 2.5 2.5)
+			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
 			(net 32 "GND1")
 			(pinfunction "Ext")
 			(pintype "passive")
 			(uuid "f86a1ab7-98a1-4a49-8a78-09fb2b265771")
 		)
 		(pad "2" thru_hole circle
-			(at -5.025 5.025)
-			(size 4 4)
-			(drill 1.5)
+			(at -2.54 2.54)
+			(size 2.5 2.5)
+			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
 			(net 32 "GND1")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "718392bb-9ee3-4dad-b0b8-37beee20085d")
+			(uuid "f86a1ab7-98a1-4a49-8a78-09fb2b265771")
 		)
 		(pad "2" thru_hole circle
-			(at 5.025 -5.025)
-			(size 4 4)
-			(drill 1.5)
+			(at 2.54 -2.54)
+			(size 2.5 2.5)
+			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
 			(net 32 "GND1")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "872d4fa8-bb2f-4ae5-8212-922529c0d422")
+			(uuid "f86a1ab7-98a1-4a49-8a78-09fb2b265771")
 		)
 		(pad "2" thru_hole circle
-			(at 5.025 5.025)
-			(size 4 4)
-			(drill 1.5)
+			(at 2.54 2.54)
+			(size 2.5 2.5)
+			(drill 1.7)
 			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(remove_unused_layers yes)
+			(keep_end_layers yes)
+			(zone_layer_connections)
 			(net 32 "GND1")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "89b72f51-bf03-40fb-ba2c-aa88c4f3014d")
+			(uuid "f86a1ab7-98a1-4a49-8a78-09fb2b265771")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/BNC_TEConnectivity_1478035_Horizontal.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_901-143_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2108,7 +2293,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/External_Custom_Parts.3dshapes/SMA-J-P-H-RA-TH1--3DModel-STEP-269445.STEP"
+			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -2168,11 +2364,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b359004f-ebb7-45cf-aa35-2496ed90f1f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c541eb5d-0343-474b-a0b3-5402e852b127")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -0.744999 -1.610001)
 			(end -0.41003 -1.61)
@@ -2446,11 +2656,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "432d32df-6e40-420f-bb17-b7c3cbc974e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2418b1c6-e230-4694-9478-ff63a4008197")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -0.744999 -1.610001)
 			(end -0.41003 -1.61)
@@ -2698,7 +2922,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -2711,7 +2935,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CGA3E3X7R1H334K080AB"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -2719,6 +2943,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" "330nf"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a150e663-09b9-4359-8e40-337ef04b0dcb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -2902,7 +3140,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -2915,7 +3153,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM188R6YA106MA73D"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -2923,6 +3161,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ad46a6c8-c400-4084-949e-094c7eb0d280")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3131,11 +3383,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "99954c0e-06f2-46dd-86a8-5094b9378ea6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fa4bd600-38d6-4b1e-9a0b-602dd92e2f29")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -0.744999 -1.610001)
 			(end -0.41003 -1.61)
@@ -3409,6 +3675,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7ea6fab4-3b2b-4f7c-87b8-3b835ccc505a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/28450b2d-b244-42cf-89ff-759ffff39cf0")
 		(sheetname "/")
@@ -3587,7 +3867,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -3600,7 +3880,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "ED555/2DS"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -3608,6 +3888,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d75134fb-697f-4d33-8a77-77dc69445f9f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3930,7 +4224,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3943,7 +4237,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CC0603KRX7R9BB104"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3951,6 +4245,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "81190bc4-4dfc-43f8-85e4-12878bb8e2eb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -4133,7 +4441,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -4146,7 +4454,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CC0603KRX7R9BB104"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -4154,6 +4462,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d56f471-231a-468f-b2c0-4837ab182446")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -4364,11 +4686,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c75dc9dd-7156-4bd3-b8cf-bdbf578050a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "RaspberryPi?Pico?Common* RaspberryPi?Pico?SMD*")
 		(path "/008b0d42-bc17-43a7-aca8-dea0d74dee73")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -10.610002 -20.109998)
 			(end -10.61 -20.529999)
@@ -8412,6 +8748,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "02984ed5-2b39-493d-89af-972ca67f3c6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/679cf0e0-0021-46c8-b065-f6c3629d27b3")
 		(sheetname "/")
@@ -8578,7 +8928,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nf"
 			(at -0.000001 -1.429999 90)
 			(layer "B.Fab")
 			(uuid "c54f41c3-ca63-41a6-b262-dc23918990aa")
@@ -8590,7 +8940,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -8611,6 +8961,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9cf3335f-1d9f-47b8-8d12-51293c04ce2d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -8814,6 +9178,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8c4b097-6c94-43ce-a3f2-a73414fdceb0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -9023,11 +9401,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "10be52bc-7791-45ab-9daf-3532a0890038")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/75f462af-a955-436e-8e80-ff81787859d9")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -0.744999 -1.610001)
 			(end -0.41003 -1.61)
@@ -9301,6 +9693,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71e3d4fd-f0af-4b37-a881-3ede13c2fc69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c6892d2c-6a05-4fa4-a09d-3d8fd596a3cc")
 		(sheetname "/")
@@ -9505,11 +9911,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c7938320-d6e8-4d6d-8338-c4852a46c913")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8cdc26b8-8dd6-4bd7-803e-64a72549a9b9")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -0.745 -0.735001)
 			(end 0.745001 -0.734999)
@@ -9736,7 +10156,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -9749,7 +10169,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM188R6YA106MA73D"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -9757,6 +10177,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e5db5483-ce4d-47b8-ad1e-f4cf2f9fbd5f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -9916,7 +10350,7 @@
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J5"
-			(at -0.024 1.884 -0)
+			(at -0.024 1.884 0)
 			(layer "B.SilkS")
 			(uuid "e06cd24b-fdfa-49d9-8994-8132a56861af")
 			(effects
@@ -9965,11 +10399,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6b300939-5d6e-4c80-8393-257ace8b51aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d793358c-2b8d-43ce-8994-0fe496ee4464")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 0.745 -0.735)
 			(end 0.745 -0.61)
@@ -10196,7 +10644,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2450/Combicon%20Compact%20Series.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -10209,7 +10657,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "1984620"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -10217,6 +10665,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dc0e1702-d60b-4774-aeab-47b2d25bd98c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10581,7 +11043,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -10594,7 +11056,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM188R6YA106MA73D"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -10602,6 +11064,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fe137dda-1de3-4fff-ad2e-b889e718dbea")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10806,6 +11282,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "996d7cad-b951-46f7-8b9d-72d47c6d971a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -11121,6 +11611,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4ca50bbe-998a-4893-86f3-207e17327ea6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/691fd22a-a8b2-408e-8d91-9ca814594389")
 		(sheetname "/")
@@ -11320,6 +11824,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "443c5e98-27bd-48b5-843b-6955ef80162c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -11529,6 +12047,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "18279264-936b-46fc-8185-4079088d1f16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/90580650-06ad-4b3e-a555-5806c754f4db")
 		(sheetname "/")
@@ -11729,6 +12261,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6057f370-2e22-4e85-b25a-f78a08f943c0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -12018,7 +12564,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/506/UMK107AB7105KA-T_SS.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12031,7 +12577,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "UMK107AB7105KA-T"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12039,6 +12585,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8a6afde6-8ee0-477e-b957-3c0d7fdd4574")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -12222,7 +12782,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2450/Combicon%20Compact%20Series.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12235,7 +12795,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "1984633"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12243,6 +12803,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "32343610-020c-4b34-a42a-0d376eaa0763")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -12675,11 +13249,25 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9cf4b0e2-c86a-4a7e-88a6-3249f0734a1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8a43bba6-2267-4e1c-b79f-8b296e004a79")
 		(sheetname "/")
 		(sheetfile "LMP_Circuit.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -0.745 -0.735001)
 			(end 0.745001 -0.734999)
@@ -12932,6 +13520,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2cfc9879-adf7-4c17-83c2-af0636009d02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c3dc82dd-4d65-4baf-bc93-1db05ff654d4")
 		(sheetname "/")
@@ -13131,6 +13733,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9c954249-8559-4ace-8c53-10392eaa0feb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
