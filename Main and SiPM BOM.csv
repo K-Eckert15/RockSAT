@@ -1,17 +1,14 @@
-﻿"Index","Quantity","Part Number","Manufacturer Part Number","Description","Customer Reference","Available","Backorder","Unit Price","Extended Price USD"
-"1","2","LT1807CS8#PBF-ND","LT1807CS8#PBF","IC OPAMP GP 2 CIRCUIT 8SO","","2","0","9.69000","19.38"
-"2","4","MC7805CTGOS-ND","MC7805CTG","IC REG LINEAR 5V 1A TO220","","4","0","0.52000","2.08"
-"3","5","497-4548-1-ND","1N5818","DIODE SCHOTTKY 30V 1A DO41","","5","0","0.23000","1.15"
-"4","5","56-CBB0207001003GCT00CT-ND","CBB0207001003GCT00","CBB 0207 2% CT 100K","","5","0","1.05000","5.25"
-"5","5","BC4511CT-ND","MBB0207VD2002BC100","RES 20K OHM 0.1% 0.4W AXIAL","","5","0","1.67000","8.35"
-"6","5","56-MBB0207VD1002BCT00CT-ND","MBB0207VD1002BCT00","MBB/SMA 0207-25 0.1% CECC 06 CT","","5","0","0.44000","2.20"
-"7","5","BC4503CT-ND","MBB0207VD1001BC100","RES 1K OHM 0.1% 0.4W AXIAL","","5","0","1.67000","8.35"
-"8","5","56-MBB0207VD2500BC100CT-ND","MBB0207VD2500BC100","RES 250 OHM 0.1% 0.4W AXIAL","","5","0","1.81000","9.05"
-"9","5","490-16957-1-ND","RDEC71H106K3S1H03A","CAP CER 10UF 50V X7S RADIAL","","5","0","1.02000","5.10"
-"10","5","399-4264-ND","C320C104K5R5TA","CAP CER 0.1UF 50V X7R RADIAL","","5","0","0.30000","1.50"
-"11","5","399-14089-1-ND","C315C223K5R5TA7303","CAP CER 0.022UF 50V X7R RADIAL","","5","0","0.36000","1.80"
-"12","5","399-C316C100K1G5TA-ND","C316C100K1G5TA","CAP CER 10PF 100V C0G/NP0 RADIAL","","5","0","0.34000","1.70"
-"13","2","5556-MICROFC-60035-SMT-TRCT-ND","MICROFC-60035-SMT-TR","SENSOR PHOTODIODE 420NM 4SMD","","2","0","23.09000","46.18"
-"14","10","311-49.9CRCT-ND","RC0805FR-0749R9L","RES 49.9 OHM 1% 1/8W 0805","","10","0","0.00900","0.09"
-"15","10","311-1136-1-ND","CC0805KRX7R9BB103","CAP CER 10000PF 50V X7R 0805","","10","0","0.04400","0.44"
-"16","6","L77SDA15SVF","","DA15","","","","","","","","","","",""
+﻿Index,Manufacturer Part Number,Manufacturer Name,Description,Lead Time,Availability,Stock Status,Datasheet,Original Part numbers,Image,Product Notes
+1,LT1807CS8#PBF,Analog Devices Inc.,IC OPAMP GP 2 CIRCUIT 8SO,,543,In Stock,https://www.analog.com/media/en/technical-documentation/data-sheets/18067fc.pdf,LT1807CS8#PBF,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4993/505%7E05-08-1610%7ES%2C-S8%7E8.jpg,
+2,MC7805CTG,onsemi,IC REG LINEAR 5V 1A TO220,,"35,744",In Stock,https://www.onsemi.com/pdf/datasheet/mc7800-d.pdf,MC7805CTG,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6165/488%7E221AB-01%7ET%7E3.jpg,
+3,1N5818,STMicroelectronics,DIODE SCHOTTKY 30V 1A DO41,,150,In Stock,https://www.st.com/content/ccc/resource/technical/document/datasheet/26/db/14/60/52/47/47/5b/CD00001625.pdf/files/CD00001625.pdf/jcr:content/translations/en.CD00001625.pdf,497-4548-3-ND,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4846/497_1N5819.JPG,
+4,CBB0207001003GCT00,Vishay Beyschlag/Draloric/BC Components,CBB 0207 2% CT 100K,,"1,645",In Stock,https://www.vishay.com/docs/28736/cbb0207.pdf,CBB0207001003GCT00,https://mm.digikey.com/Volume0/opasdata/d220001/derivates/6/003/240/323/MFG_CBB020700xx0xGCT00_web%28640x640%29.jpg,
+5,MBB0207VD2002BC100,Vishay Beyschlag/Draloric/BC Components,RES 20K OHM 0.1% 0.4W AXIAL,,358,In Stock,https://www.vishay.com/docs/28767/mbsmapre.pdf,MBB0207VD2002BC100,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2518/20k-Ohm-0%2C1%25.jpg,
+6,MBB0207VD1002BCT00,Vishay Beyschlag/Draloric/BC Components,MBB/SMA 0207-25 0.1% CECC 06 CT,,"4,504",In Stock,https://www.vishay.com/docs/28766/mbxsma.pdf,MBB0207VD1002BCT00,https://mm.digikey.com/Volume0/opasdata/d220001/derivates/6/003/243/641/MFG_MBB0207_web%28640x640%29.jpg,
+7,MBB0207VD1001BC100,Vishay Beyschlag/Draloric/BC Components,RES 1K OHM 0.1% 0.4W AXIAL,,356,In Stock,https://www.vishay.com/docs/28767/mbsmapre.pdf,MBB0207VD1001BC100,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2401/1k-Ohm-0%2C1%25.jpg,
+8,MBB0207VD2500BC100,Vishay Beyschlag/Draloric/BC Components,RES 250 OHM 0.1% 0.4W AXIAL,,715,In Stock - Non-Stock,https://www.vishay.com/docs/28767/mbsmapre.pdf,MBB0207VD2500BC100,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2408/250-Ohm-0%2C1%25-Axial.jpg,"Non Cancellable Non Returnable. "
+9,RDEC71H106K3S1H03A,Murata Electronics,CAP CER 10UF 50V X7S RADIAL,,"1,122",In Stock,https://pim.murata.com/asset/pim4/ceramicCapacitorLead/RDE_X7R_X7S_25V-100V_E_PDF_CERAMICCAPACITORLEAD?lastModifiedDatetime=20250909130222,RDEC71H106K3S1H03A,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2583/RDE%20SERIES%205.5mm.jpg,
+10,C320C104K5R5TA,KEMET,CAP CER 0.1UF 50V X7R RADIAL,,"230,648",In Stock,https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf,C320C104K5R5TA,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2079/Goldmax%2C-300.jpg,
+11,C315C223K5R5TA7303,KEMET,CAP CER 0.022UF 50V X7R RADIAL,,"9,366",In Stock,https://content.kemet.com/datasheets/KEM_C1050_GOLDMAX_X7R.pdf,C315C223K5R5TA7303,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/631/GoldenMax32-SERIES.jpg,
+12,C316C100K1G5TA,KEMET,CAP CER 10PF 100V C0G/NP0 RADIAL,,"1,260",In Stock,https://yageogroup.com/content/datasheet/asset/file/KEM_C1049_GOLDMAX_C0G,C316C100K1G5TA,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2503/GOLDENMAX%20300%20C0G%2C%20NP0.jpg,
+13,L77SDA15SVF,Amphenol ICC (Commercial Products),CONN D-SUB RCPT 15POS SOLDER CUP,,257,In Stock,https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_d_sub_sd_hd_stamped_formed_solder_cup.pdf,L77SDA15SVF-ND,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2143/L77SDA15SVF.jpg,
