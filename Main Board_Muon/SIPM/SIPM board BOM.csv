@@ -1,9 +1,4 @@
-#,Reference,qty,Value,Part #(Digikey),Datasheet
-1,SIPM1,1,,MICROFC-60035-SMT-TR,https://www.onsemi.com/pdf/datasheet/microc-series-d.pdf
-2,C8--C11,4,10n,CC0805KRX7R9BB100,https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V
-3,R11--R13,3,49.9,RC0805FR-0749R9L,https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
+﻿Index,Manufacturer Part Number,Manufacturer Name,Description,Lead Time,Availability,Stock Status,Datasheet,Original Part numbers,Image,Product Notes
+1,MICROFC-60035-SMT-TR,onsemi,SENSOR PHOTODIODE 420NM 4SMD,,"2,362",In Stock,https://www.onsemi.com/pdf/datasheet/microc-series-d.pdf,MICROFC-60035-SMT-TR,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/706/MicroFC-60035-SMT_bottom.JPG,
+2,RC0805FR-0749R9L,YAGEO,RES 49.9 OHM 1% 1/8W 0805,,"101,570",In Stock,https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L,311-49.9CRTR-ND,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4322/cut-tape-render.jpg,
+3,CC0805KRX7R9BB103,YAGEO,CAP CER 10000PF 50V X7R 0805,,"13,239",In Stock,https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V,311-1136-1-ND,https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4322/cut-tape-render.jpg,
